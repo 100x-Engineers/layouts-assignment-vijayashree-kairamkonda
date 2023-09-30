@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="dark:bg-black dark:text-neutral-50 p-2">
+    <main class="flex flex-col justify-between h-98vh">
+      <div class="flex flex-col space-y-3">
+        <div class="flex space-x-6">
+          <a href="../Login/index.html"
+            ><img src="../../public/images/cross.svg" class="w-6 h-6"
+          /></a>
+          <span class="font-bold">Step 2 of 4</span>
+        </div>
+        <div class="font-bold text-base">Create your account</div>
+        <fieldset
+          class="w-full rounded border border-solid px-3 py-3 border-twitter-default"
+        >
+          <legend class="text-xs text-twitter-default">
+            <div class="px-2">Name</div>
+          </legend>
+          <div class="flex justify-end items-center relative">
+            <input
+              type="text"
+              placeholder="Vijayashree"
+              class="w-full pb-1 bg-transparent text-neutral-50 placeholder:text-neutral-50 focus:outline-none"
+            />
+            <img
+              src="../../public/images/correct.svg"
+              class="absolute w-5"
+              alt="correct Icon"
+            />
+          </div>
+        </fieldset>
+        <fieldset
+          class="w-full rounded border border-solid px-3 py-3 border-twitter-default"
+        >
+          <legend class="text-xs text-twitter-default">
+            <div class="px-2">Email</div>
+          </legend>
+          <div class="flex justify-end items-center relative">
+            <input
+              type="text"
+              placeholder="Vijayashree@gmail.com"
+              class="w-full pb-1 bg-transparent text-neutral-50 placeholder:text-neutral-50 focus:outline-none"
+            />
+            <img
+              src="../../public/images/correct.svg"
+              class="absolute w-5"
+              alt="correct Icon"
+            />
+          </div>
+        </fieldset>
+        <fieldset
+          class="w-full rounded border border-solid px-3 py-3 border-twitter-default"
+        >
+          <legend class="text-xs text-twitter-default">
+            <div class="px-2">Date of birth</div>
+          </legend>
+          <div class="flex justify-end items-center relative">
+            <input
+              type="text"
+              placeholder="09/04/2000"
+              class="w-full pb-1 bg-transparent text-neutral-50 placeholder:text-neutral-50 focus:outline-none"
+            />
+            <img
+              src="../../public/images/correct.svg"
+              class="absolute w-5"
+              alt="correct Icon"
+            />
+          </div>
+        </fieldset>
+      </div>
+      <div>
+        <a href="./create-account-step3.html">
+          <button
+            class="bg-twitter-default py-5 w-full h-15 rounded-full text-neutral-50 font-bold text-center hover:bg-twitter-hover disabled:opacity-50"
+          >
+            Sign up
+          </button>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tweet</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-white flex flex-col justify-between h-100vh dark:bg-black dark:text-white w-full p-2"
+  >
+    <main>
+      <div class="flex justify-between">
+        <a href="../HomeFeed/index.html"
+          ><img src="../../public/images/cross.svg" class="w-6 h-6"
+        /></a>
+        <button
+          class="bg-twitter-default text-neutral-50 px-8 py-2 font-bold text-center rounded-full hover:bg-twitter-hover"
+        >
+          Post
+        </button>
+      </div>
+
+      <div class="my-8 flex gap-2 content-center">
+        <img
+          class="rounded-7xl h-9 w-9 flex-shrink-0"
+          src="../../public/images/avatar.png"
+        />
+        <input
+          type="text"
+          class="w-full text-lg bg-transparent text-neutral-50 placeholder:text-neutral-500 focus:outline-none"
+          placeholder="What's happening?"
+        />
+      </div>
+    </main>
+    <footer class="border-t-2 border-neutral-700 py-3 justify-self-end">
+      <p class="text-neutral-500">0/280</p>
+    </footer>
+  </body>
+</html>

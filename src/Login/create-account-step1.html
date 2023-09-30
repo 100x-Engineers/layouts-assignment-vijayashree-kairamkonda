@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-white dark:bg-black dark:text-white w-full p-2">
+    <main class="flex flex-col justify-between h-98vh">
+      <div class="flex flex-col space-y-4">
+        <div class="flex space-x-6">
+          <a href="../Login/index.html"
+            ><img src="../../public/images/cross.svg" class="w-6 h-6"
+          /></a>
+          <span class="font-bold">Step 1 of 4</span>
+        </div>
+        <div class="font-bold text-base">Create your account</div>
+        <fieldset
+          class="w-full group rounded border border-solid border-neutral-500 px-3 py-3 focus-within:border-twitter-default"
+        >
+          <legend
+            class="text-xs text-neutral-500 group-focus-within:text-twitter-default"
+          >
+            <div class="px-2">Name</div>
+          </legend>
+          <input
+            type="text"
+            placeholder="Name"
+            class="w-full pb-1 bg-transparent text-neutral-50 placeholder:text-neutral-500 focus:outline-none"
+          />
+        </fieldset>
+        <fieldset
+          class="w-full group rounded border border-solid border-neutral-500 px-3 py-3 focus-within:border-twitter-default"
+        >
+          <legend
+            class="text-xs text-neutral-500 group-focus-within:text-twitter-default"
+          >
+            <div class="px-2">Email</div>
+          </legend>
+          <input
+            type="text"
+            placeholder="Email"
+            class="w-full pb-1 bg-transparent text-neutral-50 placeholder:text-neutral-500 focus:outline-none"
+          />
+        </fieldset>
+
+        <div class="flex flex-col space-y-2">
+          <span class="font-bold text-base">Date of birth</span>
+          <span class="font-normal text-neutral-500">
+            This will not be shown publicly.Confirm your own age, even if this
+            account is for a business, a pet, or something else.
+          </span>
+        </div>
+        <div class="flex space-x-2 py-2">
+          <fieldset
+            class="w-full group rounded border border-solid border-neutral-500 px-3 py-3 focus-within:border-twitter-default relative"
+          >
+            <legend
+              class="text-xs text-neutral-500 group-focus-within:text-twitter-default"
+            >
+              <div class="px-2">Month</div>
+            </legend>
+            <select
+              class="w-full pb-1 bg-transparent text-neutral-500 placeholder:text-neutral-500 focus:outline-none"
+            >
+              <option selected value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
+            </select>
+          </fieldset>
+          <fieldset
+            class="w-full group rounded border border-solid border-neutral-500 px-3 py-3 focus-within:border-twitter-default"
+          >
+            <legend
+              class="text-xs text-neutral-500 group-focus-within:text-twitter-default"
+            >
+              <div class="px-2">Day</div>
+            </legend>
+            <select
+              class="w-full pb-1 bg-transparent text-neutral-500 placeholder:text-neutral-500 focus:outline-none"
+            >
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+          </fieldset>
+          <fieldset
+            class="w-full group rounded border border-solid border-neutral-500 px-3 py-3 focus-within:border-twitter-default"
+          >
+            <legend
+              class="text-xs text-neutral-500 group-focus-within:text-twitter-default"
+            >
+              <div class="px-2">Year</div>
+            </legend>
+            <select
+              class="w-full pb-1 bg-transparent text-neutral-500 placeholder:text-neutral-500 focus:outline-none"
+            >
+              <option value="1990" selected>1990</option>
+              <option value="1991">1991</option>
+              <option value="1992">1992</option>
+              <option value="1993">1993</option>
+              <option value="1994">1994</option>
+              <option value="1995">1995</option>
+              <option value="1996">1996</option>
+              <option value="1997">1997</option>
+              <option value="1998">1998</option>
+              <option value="1999">1999</option>
+              <option value="2000">2000</option>
+            </select>
+          </fieldset>
+        </div>
+      </div>
+      <div>
+        <a href="./create-account-step2.html">
+          <button
+            class="bg-neutral-50 text-black w-full py-2 font-bold text-center rounded-full hover:bg-neutral-200 disabled:opacity-50"
+          >
+            Create account
+          </button>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
