@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="dark:bg-black dark:text-neutral-50 p-2">
+    <main class="flex flex-col justify-between h-98vh">
+      <div class="flex flex-col space-y-3">
+        <div class="flex space-x-6">
+          <a href="../Login/index.html"
+            ><img src="../../public/images/cross.svg" class="w-6 h-6"
+          /></a>
+          <span class="font-bold">Step 4 of 4</span>
+        </div>
+        <div class="font-bold text-base">You'll need a password</div>
+        <div class="text-neutral-500 font-normal">
+          Make sure it's 8 characters or more
+        </div>
+        <fieldset
+          class="w-full group rounded border border-solid border-neutral-500 px-3 py-3 focus-within:border-twitter-default"
+        >
+          <legend
+            class="text-xs text-neutral-500 group-focus-within:text-twitter-default"
+          >
+            <div class="px-2">Password</div>
+          </legend>
+          <div class="flex justify-end items-center relative">
+            <input
+              type="text"
+              placeholder="Password"
+              class="w-full pb-1 bg-transparent text-neutral-50 placeholder:text-neutral-500 focus:outline-none"
+            />
+            <img
+              src="../../public/images/eye.svg"
+              class="absolute w-5"
+              alt="correct Icon"
+            />
+          </div>
+        </fieldset>
+      </div>
+      <div>
+        <a href="../HomeFeed/index.html">
+          <button
+            class="bg-neutral-50 w-full text-black py-2 font-bold text-center rounded-full hover:bg-neutral-200 disabled:opacity-50"
+          >
+            Next
+          </button>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
